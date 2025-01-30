@@ -67,7 +67,7 @@ $heading_big_40: 40px;
     width: 100%;
   }
 
-
+  /* -------------- */
   
   .card-detail-infomation {
     display: flex;
@@ -148,9 +148,9 @@ $heading_big_40: 40px;
     }
   }
   
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1440px) {
     .card-header-content h1 {
       width: 47%;
     }
-}
+  }
   
