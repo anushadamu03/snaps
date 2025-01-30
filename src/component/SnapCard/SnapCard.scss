@@ -1,0 +1,150 @@
+$color_darkblack : #0C1E1A;
+$font_darkgreen : #1E6655;
+$font_sage_green : #E4EFEC;
+$font_sea_green : #B7CEC9;
+$font_verylight_green : #EFFAF7;
+$font_white: #FFFFFF;
+
+$heading_small_12: 12px;
+$heading_small_14: 14px;
+$heading_big_40: 40px;
+
+
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid $font_sea_green;
+    background-color: $font_sage_green;
+  
+
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
+
+
+.card-tags {
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    span {
+        border-radius: 12px;
+        border: 1px solid $font_sea_green;
+        background-color: $font_white;
+        padding: 8px 12px;
+        font-size: $heading_small_12;
+        font-weight: 500;
+        line-height: 15px;
+        font-family: "Outfit";
+    }
+
+}
+
+
+
+.card-section {
+    padding: 64px 0px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .card_cols1{
+width: calc(33% - 15px);
+cursor: pointer;
+margin-bottom: 20px;
+    }
+}
+
+.card-header-content {
+    h1 {
+        font-family: "NewsReader";
+        font-size: 52px;
+        line-height: 66px;
+        font-weight: 400;
+        background-color: "none";
+        padding: 0 !important;
+
+        span{
+font-weight: 300;
+        }
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 500;
+        font-family: "Outfit";
+    }
+
+}
+
+
+.card-header-content {
+    padding-top: 55px;
+}
+
+@media screen and (max-width: 767px) {
+    .card-section {
+        gap: 20px;
+        flex-wrap: wrap;
+    
+        .card_cols1{
+    width: calc(50% - 20px);
+        }
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .card-header-content {
+        p {
+            font-size: $heading_small_12;
+            line-height: 15px;
+            font-weight: 500;
+        }
+
+        h1 {
+            font-size: 26px;
+            line-height: 38px;
+            font-weight: 400;
+        }
+
+    }
+
+    .card-section {
+        padding: 48px 0px;
+    }
+
+ 
+
+    .card-tags span {
+        line-height: 12px;
+        font-weight: 500;
+        font-size: 10px;
+        padding: 6px 8px;
+        border-radius: 6px;
+    }
+
+    .card-tags {
+        padding: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .card-header-content {
+        padding-top: 32px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .card-header-content {
+        h1 {
+            width: 47%;
+        }
+    }
+}
