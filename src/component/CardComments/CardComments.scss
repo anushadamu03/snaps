@@ -1,0 +1,63 @@
+
+$color_darkblack : #0C1E1A;
+ $font_darkgreen : #1E6655;
+ $font_sage_green : #E4EFEC;
+ $font_sea_green : #B7CEC9;
+ $font_verylight_green : #EFFAF7;
+ $font_white: #FFFFFF;
+
+ $heading_small_14: 14px;
+ $heading_big_40: 40px;
+
+
+
+ .carddetails-user-comments-box{
+    padding: 0px 0px 120px 0px;
+}
+
+
+.carddetails-user-comments-content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #b7cec9;
+  padding: 12px 0px;
+  font-family: "Outfit";
+
+  p {
+    color: #1e6655;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+    font-family: "Outfit";
+  }
+
+  span {
+    color: #1e6655;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+    font-family: "Outfit";
+  }
+
+  h6 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    font-family: "Outfit";
+  }
+
+}
+ 
+
+@media screen and (max-width: 767px) {
+  .carddetails-user-comments-content h6 {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+  }
+ 
+  
+
+}

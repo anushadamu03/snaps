@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Drawer.scss"; 
+import "./Drawer.scss"; // Import the custom CSS file
 
 import tagsData from "../../data/tags.json";
 // import photoData from "../../data/photos.json";
@@ -10,12 +10,15 @@ const Drawer = (props) => {
 
   const toggleDrawer = () => setIsOpenDrawer(!isOpenDrawer);
 
- return (
+ 
+
+
+  return (
     <div className="drawer-container">
       {/* Button to toggle the drawer */}
-      { <button className="toggle-button" onClick={toggleDrawer}>
+      {/* <button className="toggle-button" onClick={toggleDrawer}>
         Open Drawer
-      </button> }
+      </button> */}
 
       {/* Overlay */}
       {isOpenDrawer && <div className="overlay" onClick={toggleDrawer}></div>}

@@ -35,7 +35,7 @@ $color_darkblack : #0C1E1A;
          color: $font_darkgreen;
 
          &:hover {
-             color: white;
+             color: $font_white;
              background-color: $font_darkgreen;
              border: 3px solid $font_darkgreen;
          }
@@ -52,7 +52,7 @@ $color_darkblack : #0C1E1A;
         font-size: 20px;
         line-height: 15px;
         font-weight: 400;
-        color:#1e6655;
+        color: $font_darkgreen;
         font-family: "Outfit";
       }
 
@@ -87,7 +87,7 @@ $color_darkblack : #0C1E1A;
         font-size: 15px;
         line-height: 15px;
         font-weight: 500;
-        color:#1e6655;
+        color: $font_darkgreen;
       }
       .cardetail-home-button img{
         width: 15px;
