@@ -1,3 +1,4 @@
+
 import "./App.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
@@ -10,12 +11,7 @@ function App() {
 
   return (
     <>
-      {/* <div className="mx-auto px-4">
-        <Header setIsOpenDrawer={setIsOpenDrawer} />
-        <Drawer setfilterData={setfilterData} setIsOpenDrawer={setIsOpenDrawer} isOpenDrawer={isOpenDrawer} />
-        <SnapCard filterData={filterData} />
-        <Footer />
-      </div> */}
+      {}
 
       <div className="mx-auto ">
         <BrowserRouter>

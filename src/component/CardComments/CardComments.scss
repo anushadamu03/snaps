@@ -19,12 +19,12 @@ $color_darkblack : #0C1E1A;
 .carddetails-user-comments-content {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #b7cec9;
+  border-bottom: 1px solid $font_sea_green;
   padding: 12px 0px;
   font-family: "Outfit";
 
   p {
-    color: #1e6655;
+    color: $font_darkgreen;
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
@@ -33,7 +33,7 @@ $color_darkblack : #0C1E1A;
   }
 
   span {
-    color: #1e6655;
+    color: $font_darkgreen;
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;

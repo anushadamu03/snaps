@@ -23,7 +23,6 @@ const CardDetails = () => {
       const [photoCardData, setPhotos] = useState([]);
       const [loading, setLoading] = useState(true); 
     
-      
       useEffect(() => {
         
           const fetchPhotos = async () => {

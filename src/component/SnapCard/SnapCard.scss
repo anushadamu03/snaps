@@ -88,7 +88,7 @@ font-weight: 300;
     padding-top: 55px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .card-section {
         gap: 20px;
         flex-wrap: wrap;
@@ -99,7 +99,7 @@ font-weight: 300;
     }
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 767px) {
     .card-header-content {
         p {
             font-size: $heading_small_12;
@@ -141,10 +141,18 @@ font-weight: 300;
     }
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width: 1440px) {
     .card-header-content {
         h1 {
             width: 47%;
         }
     }
 }
+
+@media screen and (max-width: 576px) {
+.card-section {
+
+    .card_cols1{
+width: 100%;
+    }
+}}

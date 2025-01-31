@@ -1,8 +1,5 @@
-
 import "./Header.scss"
-
 import filter from "../../assets/images/Filter.svg";
-
 import arrow from "../../assets/images/Arrow.svg";
 import { useLocation ,useNavigate} from "react-router-dom";
 
@@ -33,9 +30,7 @@ const Header = (props) => {
        
         )}
          </div> 
-       
-
-    </div>
+       </div>
   )
 }
 
