@@ -1,0 +1,97 @@
+
+$color_darkblack : #0C1E1A;
+ $font_darkgreen : #1E6655;
+ $font_sage_green : #E4EFEC;
+ $font_sea_green : #B7CEC9;
+ $font_verylight_green : #EFFAF7;
+ $font_white: #FFFFFF;
+
+ $heading_small_14: 14px;
+ $heading_big_40: 40px;
+
+ .header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 32px 0px;
+
+     h1 {
+         font-size: $heading_big_40;
+         line-height: 40px;
+         font-family: "NewsReader";
+         font-weight: 500;
+         color: $color_darkblack;
+     }
+
+     button {
+         padding: 8px 28px;
+         border-radius: 100px;
+         background-color: $font_verylight_green;
+         border: 3px solid $font_darkgreen;
+         font-size: $heading_small_14;
+         font-family: "Outfit";
+         font-weight: 500;
+         line-height: 17.5px;
+         color: $font_darkgreen;
+
+         &:hover {
+             color: $font_white;
+             background-color: $font_darkgreen;
+             border: 3px solid $font_darkgreen;
+         }
+
+     }
+
+     span {
+         padding-left: 8px;
+     }
+
+     .cardetail-home-button{
+        display: flex;
+        gap: 10px;
+        font-size: 20px;
+        line-height: 15px;
+        font-weight: 400;
+        color: $font_darkgreen;
+        font-family: "Outfit";
+      }
+
+ }
+
+
+
+
+ @media screen and (max-width: 767px) {
+     .header {
+         h1 {
+             font-size: 32px;
+             line-height: 32px;
+             font-weight: 400;
+         }
+
+         button {
+             padding: 8px 16px;
+             font-size: 12px;
+             font-weight: 500;
+             line-height: 15px;
+         }
+     }
+
+     .header {
+         padding: 24px 0px;
+     }
+
+     .cardetail-home-button{
+        display: flex;
+        gap: 10px;
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 500;
+        color: $font_darkgreen;
+      }
+      .cardetail-home-button img{
+        width: 15px;
+        height: 15px;
+      }
+
+ }

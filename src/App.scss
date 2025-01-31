@@ -1,0 +1,70 @@
+
+
+// $color_1: inherit;
+// $background-color_1: #F2F2F2;
+
+$color_darkblack :  #0C1E1A;
+$font_darkgreen :  #1E6655;
+$font_sage_green :  #E4EFEC;
+$font_sea_green :   #B7CEC9;
+$font_verylight_green :   #EFFAF7;
+$font_white: #FFFFFF;
+
+/* font-family: 'Arizonia', cursive; */
+@font-face {
+	font-family: "NewsReader";
+	src: url("./assets/fonts/Newsreader-Regular.woff");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "NewsReader";
+	src: url("./assets/fonts/Newsreader-LightItalic.woff");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "NewsReader";
+	src: url("./assets/fonts/Newsreader-Light.woff");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Outfit";
+	src: url("./assets/fonts/Outfit-Medium.woff");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "Outfit";
+	src: url("./assets/fonts/Outfit-Light.woff");
+	font-weight: 400;
+}
+
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: GeneralSans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color:#EFFAF7;
+  overflow-x: hidden;
+  text-align: initial;
+}
+
+.outer_container{
+	margin: 0px 20px;
+}
