@@ -19,12 +19,12 @@ $color_darkblack : #0C1E1A;
 .carddetails-user-comments-content {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid $font_sea_green;
+  border-bottom: 1px solid #b7cec9;
   padding: 12px 0px;
   font-family: "Outfit";
 
   p {
-    color: $font_darkgreen;
+    color: #1e6655;
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
@@ -33,7 +33,7 @@ $color_darkblack : #0C1E1A;
   }
 
   span {
-    color: $font_darkgreen;
+    color: #1e6655;
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
@@ -49,15 +49,34 @@ $color_darkblack : #0C1E1A;
   }
 
 }
+
+.carddetails-user-comments-content h6{
+  margin: 0px 0px;
+}
  
 
 @media screen and (max-width: 767px) {
   .carddetails-user-comments-content h6 {
     font-size: 12px;
     line-height: 15px;
-    font-weight: 500;
+    margin: 0px 0px;
   }
  
-  
+  .carddetails-user-comments-box{
+    padding: 0px 0px 60px 0px;
+}
 
 }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .carddetails-user-comments-content h6 {
+    font-size: 20px;
+    line-height: 15px;
+    margin: 0px 0px;
+  }
+ 
+  .carddetails-user-comments-box{
+    padding: 0px 0px 60px 0px;
+}
+}
+
