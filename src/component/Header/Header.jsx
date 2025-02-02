@@ -1,7 +1,7 @@
 import "./Header.scss"
 import filter from "../../assets/images/Filter.svg";
 import arrow from "../../assets/images/Arrow.svg";
-import { useLocation ,useNavigate} from "react-router-dom";
+import { Link, useLocation ,useNavigate} from "react-router-dom";
 
 const Header = (props) => {
 
@@ -13,9 +13,12 @@ const Header = (props) => {
 
   return (
     <div  className='header'>
+      <Link to={"/"}>
         <div>
           <h1>Snaps</h1>
         </div>
+      </Link>
+       
 
 <div>  
         {data?.isClickCard ? (
@@ -30,7 +33,9 @@ const Header = (props) => {
        
         )}
          </div> 
-       </div>
+       
+
+    </div>
   )
 }
 
