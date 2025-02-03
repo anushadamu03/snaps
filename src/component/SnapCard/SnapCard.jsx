@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import photoData from "../../data/photos.json";
 import "./SnapCard.scss";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -20,9 +19,7 @@ const SnapCard = (props) => {
   useEffect(() => {
     const fetchPhotos = async () => {
       try {
-        // const response = await axios.get(`https://unit-3-project-c5faaab51857.herokuapp.com/photos?api_key=e0eea5f0-0f8c-4b54-9fc4-ff50843766d4`);
         const response = await axios.get(`${API_URL}/photos`);
-
         const data = await response.data;
         setPhotos(data);
         setLoading(false);
@@ -50,8 +47,6 @@ const SnapCard = (props) => {
       setcardsData(filteredPhotos);
     }
   }, [filterData, photoData]);
-
-  // console.log("filterData==",cardsData.length)
 
   return (
     <div>

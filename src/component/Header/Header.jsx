@@ -1,9 +1,5 @@
-
-
 import "./Header.scss"
-
 import filter from "../../assets/images/Filter.svg";
-
 import arrow from "../../assets/images/Arrow.svg";
 import { Link, useLocation ,useNavigate} from "react-router-dom";
 
