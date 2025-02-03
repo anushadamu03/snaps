@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import "./Drawer.scss"; // Import the custom CSS file
-
+import "./Drawer.scss"; 
 import tagsData from "../../data/tags.json";
-// import photoData from "../../data/photos.json";
 
 const Drawer = (props) => {
   const {setfilterData, setIsOpenDrawer, isOpenDrawer} = props;
@@ -15,15 +13,13 @@ const Drawer = (props) => {
 
   return (
     <div className="drawer-container">
-      {/* Button to toggle the drawer */}
-      {/* <button className="toggle-button" onClick={toggleDrawer}>
-        Open Drawer
-      </button> */}
+      {}
+      {}
 
-      {/* Overlay */}
+      {}
       {isOpenDrawer && <div className="overlay" onClick={toggleDrawer}></div>}
 
-      {/* Drawer */}
+      {}
       <div
         className={`drawer ${
           isOpenDrawer ? "open" : ""
