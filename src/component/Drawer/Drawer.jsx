@@ -1,6 +1,9 @@
 import React, { useState } from "react";
-import "./Drawer.scss"; 
+import "./Drawer.scss"; // Import the custom CSS file
+
 import tagsData from "../../data/tags.json";
+// import photoData from "../../data/photos.json";
+
 const Drawer = (props) => {
   const {setfilterData, setIsOpenDrawer, isOpenDrawer} = props;
 
