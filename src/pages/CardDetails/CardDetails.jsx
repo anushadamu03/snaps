@@ -35,7 +35,7 @@ const CardDetails = () => {
     fetchPhotos();
   }, [card_id]);
 
-  // console.log("photoData==####",photoCardData)
+  
 
   // ================================
   const [commentData, setComment] = useState([]);
@@ -45,8 +45,7 @@ const CardDetails = () => {
       const data = await response.data.comments.reverse();
       console.log("comment==####", data);
       setComment(data);
-      // return await data
-      // setLoading(false);
+      
     } catch (err) {
       console.log("Failed to fetch photos", err);
     }
@@ -59,9 +58,8 @@ const CardDetails = () => {
   return (
     <div className="outer_container ">
       <Header />
-      {/* {loading &&
-        <div>Loading...</div>
-    } */}
+      {
+    } 
       {photoCardData && (
         <div className="card-section-container">
           <div className="card-section">
@@ -71,7 +69,7 @@ const CardDetails = () => {
                   <div className="">
                     <img
                       src={
-                        // "https://unit-3-project-c5faaab51857.herokuapp.com/photos/Photo-00.png"
+            
                         photoCardData.photo
                       }
                       alt=""
