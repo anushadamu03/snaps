@@ -76,9 +76,9 @@ $heading_big_40: 40px;
     border-radius: 10px;
     background-color: $font_darkgreen;
     color: white;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 15px;
+    line-height: 17.5px;
     border: 1px solid $font_darkgreen;
   }
 
@@ -118,6 +118,29 @@ $heading_big_40: 40px;
     font-weight: 500;
     color: $color_darkblack;
     font-family: "Outfit";
+  }
+  .card-form-comment-box label {
+    font-size: 14px;
+    line-height: 17.5px;
+    font-weight: 500;
+    color: $color_darkblack;
+    font-family: "Outfit";
+  }
+
+  .card-form-box {
+    button {
+      font-family: "Outfit";
+      padding: 5px 16px;
+      border-radius: 10px;
+      background-color: $font_darkgreen;
+      color: white;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 15px;
+      border: 1px solid $font_darkgreen;
+    }
+  
+ 
   }
 }
 
