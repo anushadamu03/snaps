@@ -20,13 +20,17 @@ $color_darkblack : #0C1E1A;
          line-height: 40px;
          font-family: "NewsReader";
          font-weight: 500;
-         color: $color_darkblack;
+         color: #0c1e1a;
+         
+     }
+     :link{
+        text-decoration: none !important;
      }
 
      button {
          padding: 8px 28px;
          border-radius: 100px;
-         background-color: $font_verylight_green;
+         background-color: #effaf7;
          border: 3px solid $font_darkgreen;
          font-size: $heading_small_14;
          font-family: "Outfit";
@@ -35,7 +39,7 @@ $color_darkblack : #0C1E1A;
          color: $font_darkgreen;
 
          &:hover {
-             color: $font_white;
+             color: white;
              background-color: $font_darkgreen;
              border: 3px solid $font_darkgreen;
          }
@@ -52,7 +56,7 @@ $color_darkblack : #0C1E1A;
         font-size: 20px;
         line-height: 15px;
         font-weight: 400;
-        color: $font_darkgreen;
+        color:#1e6655;
         font-family: "Outfit";
       }
 
@@ -87,7 +91,7 @@ $color_darkblack : #0C1E1A;
         font-size: 15px;
         line-height: 15px;
         font-weight: 500;
-        color: $font_darkgreen;
+        color:#1e6655;
       }
       .cardetail-home-button img{
         width: 15px;
